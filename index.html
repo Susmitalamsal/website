@@ -1,368 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HUBA CLOTHING BRAND</title>
-    <!-- Linking CSS File -->
-    <link rel="stylesheet" href="index.css"/>
-    <!-- Fontawesome link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!-- Bootstrap link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-  </head>
-  <body>
-    <!-- <header class="bg-dark fixed-top">
-      <nav class="container-xxl navbar navbar-expand-lg py-3 bg-dark navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand fw-bold fs-3" href="#">Susmita Lamsal</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="#skills">HOME</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="#portfolio">PRODUCTS</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="#about">ABOUT</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="#cv">QUERIES</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="#contact">CONTACT</a>
-              </li>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H   U    B    A</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Top Heading-->
+    <header>
+        <div class="header-container">
+            <h1>H   U   B   A </h1>
+            <p>"Style that speaks for you."</p>
         </div>
-      </nav>
-    </header> 
-  -->
-  <nav>
-    <button class="menu-button" onclick="toggleMenu()">☰</button>
-    <ul class="nav-list">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#skills">Product</a></li>
-        <li><a href="#portfolio">About</a></li>
-        <li><a href="#queries">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-<script>
-  function toggleMenu() {
-      const navList = document.querySelector('.nav-list');
-      navList.classList.toggle('active');
-  }
-</script>
+    </header>
 
-    <!-- Hero or Showcase Section -->
-    <section class="hero d-flex flex-column align-items-center justify-content-center" id="home">
-      <div class="text-center">
-        <h1 class="h1 text-white fw-bold">HUBA</h1>
-        <h2 class="display-3 text-white fw-bold">A STYLE FOR EVERY STORY <br /></h2>
-        <a href="#skills" class="btn btn-lg fs-6 fw-medium mt-5 btn-primary p-3">TELL ME MORE</a>
-      </div>
-    </section>
+    <!-- Nav Bar haru -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#" class="logo">HUBA</a>
+            </div>
+            <div class="nav-auth">
+              <a href="" class="nav-product"> Product </a>
+              <a href="" class="nav-Contact"> Contact</a>
+              <a href="" class="nav-login">Login</a>
+                <a href="" class="nav-register">Register</a>
+            </div>
+        </div>
+    </nav>
+
     
-    <!-- Skills Section -->
-    <section class="container py-5" id="skills">
-      <div class="row mt-4 py-3">
-        <div class="col-12 d-flex flex-column text-center justify-content-center">
-          <h2>H U B A</h2>
-          <h5 class="text-secondary fw-normal py-2 fst-italic">Exudes a strength that stems from the rich tapestry of our culture.</h5>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Elevate Your Style</h1>
+            <p>Discover the latest trends and timeless classics.</p>
+            <a href="#collections"><button>Shop Now</button></a>
         </div>
-        <marquee behavior="" direction=""><h3>MADE IN NEPAL</h3></marquee>
-      </div>
-      <div class="row d-flex justify-content-between mx-0">
-        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
-          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-cart-shopping"></i>
-          <h3 class="mt-4 h4">About Huba</h3>
-          <p class="text-center">Since 2020, HUBA has been synonymous with cutting-edge style. Its intellectual universe combines concept, structure and image through codes that go beyond trends.
-          </p>
-        </div>
-        <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
-          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-laptop"></i>
-          <h3 class="mt-4 h4">HUBA's TEAM</h3>
-          <p class="text-center">HUBA's tagline, "A Style for Every Story," captures our belief that fashion is not just about clothes, but also about the story that they tell. We offer a wide range of styles and collections, each designed to capture the essence of your individuality and ensure that you stay on-trend and fashionable.</p>
-        </div>
-        <!-- <div class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4" style="width: 25rem">
-          <i class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle fa-solid fa-mobile-screen-button"></i>
-          <h3 class="mt-4 h4">Mobile App Development</h3>
-          <p class="text-center">Proficient in developing mobile apps for iOS and Android using frameworks like React Native. Experienced in building engaging and intuitive mobile user interfaces.</p>
-        </div> -->
-      </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section class="container py-5" id="portfolio">
-
-      <div class="row mt-4 py-3">
-        <div class="col-12 d-flex flex-column text-center justify-content-center">
-          <h2>HUBA'S COLLECTION</h2>
-          <h5 class="text-secondary fw-normal py-2 fst-italic">A collection of projects I've worked on.</h5>
-        </div>
-        
-        <div class="row mt-5 mx-0 justify-content-center align-items-center">
-          <div class="col-lg-3 px-md-3 px-0 col-md-4 col-12 card-wrapper">
-            <div class="card mt-4">
-              <img src="jacket3.jpg" class="img-fluid" alt="portfolio-img">
-              <div class="card-body text-center">
-                <h6 class="card-title">HUBA Reversed Racer Jacket</h6>
-                <p class="card-text text-secondary"></p>
-                <!-- <button><p>Shop now</p></button> -->
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
-            <div class="card mt-4">
-              <img src="jacket.jpg" class="img-fluid" alt="portfolio-img">
-              <div class="card-body text-center">
-                <h6 class="card-title">HUBA JEANS JACKET</h6>
-                <!-- <p class="card-text text-secondary">HTML/CSS/Bootstrap</p> -->
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
-            <div class="card mt-4">
-              <img src="black jacket.jpg" class="img-fluid" alt="portfolio-img">
-              <div class="card-body text-center">
-                <h6 class="card-title">HUBA BLACK VICE JACKET</h6>
-                <!-- <p class="card-text text-secondary">HTML/CSS/JavaScript</p> -->
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
-            <div class="card mt-4">
-              <img src="jacket4.jpg" class="img-fluid" alt="portfolio-img">
-              <div class="card-body text-center">
-                <h6 class="card-title">HUBA Collared Varsity Jacket</h6>
-                <!-- <p class="card-text text-secondary">HTML/CSS/PHP</p> -->
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
-            <div class="card mt-4">
-              <img src="jacket6.jpg" class="img-fluid" alt="portfolio-img">
-              <div class="card-body text-center">
-                <h6 class="card-title">HUBA GREEN VICE JACKET</h6>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-3 px-md-3 px-0 col-md-4 card-wrapper">
-            <div class="card mt-4">
-              <img src="t-shirt.jpg" class="img-fluid" alt="portfolio-img">
-              <div class="card-body text-center">
-                <h6 class="card-title">HUBA CLASSIC T-SHIRT</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>   
-
-
-  
-    </section>
-
-    <!-- About Section -->
-    <section class="container py-5" id="queries">
-      <div class="row mt-4 py-3">
-        <div class="col-12 d-flex flex-column text-center">
-          <h2>Our Services</h2>
-          <h5 class="text-secondary fw-normal py-2 fst-italic">Embrace the HUBA experience and let us elevate your journey towards fashion.</h5>
-        </div>
-      </div>
-      <div class="row flex-row-reverse flex-md-row mt-5 pt-5">
-        <div class="col-9 col-md-5 text-md-end">
-        
-          <h5>D2D Delivery</h5>
-          <p>We provide Door to Door delivery in almost all part of World.</p>
-        </div>
-        <div class="col-3 col-md-2 img text-center">
-          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="truck.jpg" alt="img">
-        </div>
-      </div>
-      <div class="row justify-content-md-end mt-5 pt-5">
-        <div class="col-3 col-md-2 img text-center">
-          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="nepal.jpg" alt="img">
-        </div>
-        <div class="col-9 col-md-5">
-          <h5>Made in Nepal</h5>
-          <p>All our products are proudly Made in Nepal.</p>
-        </div>
-      </div>
-      <div class="row flex-row-reverse flex-md-row mt-5 pt-5">
-        <div class="col-9 col-md-5 text-md-end">
-          <h5>Exchange and Refund Policy</h5>
-          <p>Within 24 hours of delivery, if our product does not fit the customer or if it is damaged then exchange and refund is available.</p>
-        </div>
-        <div class="col-3 col-md-2 img text-center">
-          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="exchange.jpg" alt="img">
-        </div>
-      </div>
-      <div class="row justify-content-md-end mt-5 pt-5">
-        <div class="col-3 col-md-2 img text-center">
-          <img class="rounded-circle border border-5 border-dark-subtle img-fluid" src="tag.jpg" alt="img">
-        </div>
-        <div class="col-9 col-md-5">
-          <h5>Price</h5>
-          <p>Price of our product are reasonable which everyone can afford.Even we give an special discount on occasions.</p>
-        </div>
-      </div>
-      <div class="row justify-content-md-center mt-5 pt-5">
-        <div class="col-3 col-md-2 d-flex justify-content-center hire-text">
-          <h2 class="h4 d-flex justify-content-center align-items-center bg-primary text-white rounded-circle border border-5 border-dark-subtle"><span class="d-none d-md-block">Your<br>Next<br></span></h2>
-        </div>
-      </div>      
-    </section>
-
-    <!-- Section -->
-    <section class="container py-5" id="contact">
-      <div class="row mt-4 py-3">
-        <div class="col-12 d-flex flex-column text-center">
-          <h2>Founder of HUBA</h2>
-          <h5 class="text-secondary fw-normal py-2 fst-italic">HUBA's tagline, "A Style for Every Story," captures our belief that fashion is not just about clothes, but also about the story that they tell. We offer a wide range of styles and collections, each designed to capture the essence of your individuality and ensure that you stay on-trend and fashionable..</h5>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 mt-5 order-lg-0 order-1 text-center">
-          <img class="img-fluid rounded-circle border border-5 border-dark-subtle" src="susmitaaaaaaa.jpg" alt="profile-img">
-          <h2 class="mt-3">Susmita Lamsal</h2>
-          <ul class="list-unstyled contact-info">
-            <li><i class="fas fa-envelope me-2"></i>Susmitalamsal@gmail.com</li>
-            <li><i class="fas fa-phone me-2"></i> 9802656092</li>
-            <li><i class="fas fa-map-marker-alt me-2"></i> Manigram-Butwal</li>
-          </ul>
-            <ul class="social-icons my-5 d-flex justify-content-center">
-            <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><i class="fa-brands fa-linkedin-in"></i></a>
-          </ul>
-
-          <!--<h5>Technical Skills</h5>
-          <ul class="list-unstyled">
-            <li>HTML</li>
-            <li>CSS</li>-->
-
-            <!-- Add or remove skills as needed -->
-          </ul>
-          <h5>Personal Interests</h5>
-          <ul class="list-unstyled">
-            <li>Graphic Designing</li>
-            
-            <!-- Add or remove interests as needed -->
-          </ul>
-        </div>
-        <div class="col-lg-7 order-lg-1 order-0 mt-5 text-start">
-          <h3>Profile</h3>
-          <hr>
-          <!-- <p>Write a brief description of yourself, your background, and your goals. Highlight your key strengths and experiences.</p>
-          <h3>Highlights of Qualifications</h3>
-          <hr>
-          <ul>
-            <li>Qualification 1</li>
-            <li>Qualification 2</li>
-            <li>Qualification 3</li>
-            <Add or remove qualifications as needed
-          </ul>
-          <h3>Education</h3>
-          <hr>
-          <dl>
-            <dt>Year - Year</dt>
-            <dd>University/Institution</dd>
-            <dd>Degree/Program</dd>
-          </dl>
-          <h3>Additional Courses & Training</h3>
-          <hr>
-          <dl>
-            <dt>Year</dt>
-            <dd>Course/Training</dd>
-            <dd>Institution/Organization</dd>
-          </dl>
-          <h3>Work Experience</h3>
-          <hr>
-          <dl>
-            <dt>Year - Year</dt>
-            <dd>Job Position</dd>
-            <dd>Company/Organization</dd>
-            <! Add or remove work experience entries as needed -->
-          </dl>
-          <h3>CEO OF HUBA BRAND </h3>
-          <hr>
-          <dl>
-            <dt>Our Branches </dt>
-            <dd>Butwal </dd>
-            <dd>Kathmandu </dd>
-            <dd>Bhaktapur</dd>
-          </dl>
-        </div>
-      </div>      
-    </section>
-
-     <!-- Contact Section -->
-     <section class="py-5" id="contact">
-      <div class="container-xxl py-5">
-        <div class="col-12 d-flex flex-column text-center justify-content-center">
-          <h2 class="text-white">CONTACT ME</h2>
-          <h5 class="text-white fw-normal py-2 fst-italic">Fill in this form and we'll respond within 24-48 hours.</h5>
-        </div>
-        <div class="row pt-4 mt-5">
-          <div class="col-12">
-            <form action="#" method="POST">
-              <div class="row d-flex justify-content-center">
-                <div class="col-lg-6">
-                  <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name*" required>
-                    <label for="floatingInput">Enter Name*</label>
-                  </div>
-                  <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingEmail" placeholder="Enter Email*" required>
-                    <label for="floatingEmail">Enter Email*</label>
-                  </div>
-                  <div class="form-floating mb-3">
-                    <input type="number" class="form-control" id="floatingPassword" placeholder="Enter Phone*" required>
-                    <label for="floatingPassword">Enter Phone*</label>
-                  </div>
+    <!-- Luga haruko collection -->
+    <section id="collections" class="featured-collection">
+        <h2>Latest Arrivals</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="Image1.png.jpg" alt="Green Hoodie">
+                <div class="product-content">
+                    <p>Black Huba T-Shirt</p>
+                    <p>Price: 2200</p>
+                    <button>Add to Cart</button>
                 </div>
-                <div class="form-floating col-lg-6">
-                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingMessage" style="height: 205px" required></textarea>
-                  <label for="floatingMessage" class="px-4">Enter Message*</label>
+            </div>
+            <div class="product-card">
+                <img src="black jacket.jpg" alt="Red T-shirt">
+                <div class="product-content">
+                    <p> Huba Black Jacket</p>
+                    <p>Price: 4200</p>
+                    <button>Add to Cart</button>
                 </div>
-                <div class="col-12 mt-5 d-flex justify-content-center">
-                  <button class="btn btn-lg btn-outline-light">SEND MESSAGE</button>
+            </div>
+            <div class="product-card">
+                <img src="jacket4.jpg" alt="Black Jeans">
+                <div class="product-content">
+                    <p>Huba Red Jacket</p>
+                    <p>Price: 5300</p>
+                    <button>Add to Cart</button>
                 </div>
-              </div>
-  
-            </form>
-          </div>
-        </div>
-       </div>
-     </section>
-
-     <!-- Footer -->
-     <footer>
-      <div class="container-xxl flex-wrap pt-3 d-flex align-items-center justify-content-center justify-content-md-between">
-
-        <ul class="social-icons d-flex">
-          <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-twitter"></i></small></a>
-          <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-facebook-f"></i></small></a>
-          <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-linkedin-in"></i></small></a>
-        </ul>
-      </div>
-     </footer>
+            </div>
     
+            <div class="product-card">
+                <img src="jacket3.jpg" alt="Blue Jacket">
+                <div class="product-content">
+                    <p>Mock Neck Hoddie</p>
+                    <p>Price: 4100</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+
+                <div class="product-card">
+                    <img src="jacket.jpg" alt="Blue Jacket">
+                    <div class="product-content">
+                        <p>Blue Jeans Jacket</p>
+                        <p>Price: 4100</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="t-shirt.jpg" alt="Blue Jacket">
+                    <div class="product-content">
+                        <p>Huba T-Shirt</p>
+                        <p>Price: 4100</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
     
-  </body>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>"Amazing quality and stylish designs. Absolutely love HUBA!"</p>
+            </div>
+            <div class="testimonial">
+                <p>"Fast delivery and excellent customer service. Highly recommend!"</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="contact-form">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for exclusive deals and new arrivals.</p>
+        <form action="/subscribe" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 HUBA. All rights reserved.</p>
+            <p>Contact us at <a href="mailto:info@huba.com">info@huba.com</a></p>
+        </div>
+    </footer>
+</body>
 </html>
